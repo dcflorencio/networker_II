@@ -1,0 +1,15 @@
+{
+  "python_version": "3.11",
+  "dockerfile_lines": [],
+  "dependencies": [
+    "."
+  ],
+  "graphs": {
+    "The Networker": "./src/langgraph_engineer/agent_graph.py:graph"
+
+  },
+  "env": [
+    "ANTHROPIC_API_KEY",
+    "OPENAI_API_KEY"
+  ]
+}
